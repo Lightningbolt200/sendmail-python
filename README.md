@@ -4,10 +4,10 @@ it gives feature to send mail anonymously or with authentication depending upon 
 
 ### For sending anonymous email
 
-Suppose that you want to send a fake email to nkpro@meow.com.
+Suppose that you want to send a fake email to lightningbolt@try.com.
 
-Firstly, using "nslookup" command to find the exchange server of "meow.com" (`set type=mx`)
-> dig mx meow.com
+Firstly, using "nslookup" command to find the exchange server of "try.com" (`set type=mx`)
+> dig mx try.com
 
 Coz SMTP protocol doesn't authorize on exchange server, you can directly send MIME format E-mail to the exchange server.
 
